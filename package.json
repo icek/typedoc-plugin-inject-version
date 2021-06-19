@@ -20,12 +20,14 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@npmcli/map-workspaces": "^1.0.3",
     "@types/node": "^15.12.4",
     "typedoc": "^0.21.0",
     "typescript": "^4.3.4"
   },
   "peerDependencies": {
     "typedoc": ">=0.21.0"
+  },
+  "dependencies": {
+    "@npmcli/map-workspaces": "^1.0.3"
   }
 }
